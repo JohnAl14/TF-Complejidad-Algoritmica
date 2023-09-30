@@ -64,7 +64,7 @@
 
 </div>
 
-## 2. Descripción y visualización de espacio de búsqueda
+## 2. Descripción y visualización del conjunto de datos
 
 ?????
 
