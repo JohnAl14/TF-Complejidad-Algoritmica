@@ -95,6 +95,11 @@ En el ámbito de las matemáticas y la informática, se investiga la teoría de 
   <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/400px-Connexe_et_pas_connexe.svg.png" alt="grafos-ejepmplo">
 </p>
 
+  - Clase grafo en nuestro código:
+<p align="center">
+  <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/clase-grafo.png" alt="grafos-cod">
+</p>
+
 </div>
 
 </div>
@@ -106,7 +111,15 @@ En el ámbito de las matemáticas y la informática, se investiga la teoría de 
 Los vértices son uno de los dos componentes esenciales en la composición de un grafo. En consonancia con las demás disciplinas matemáticas, la Teoría de Grafos no se enfoca en definir la naturaleza de los vértices en sí. En cambio, se centra en la capacidad de identificar situaciones diversas donde se puedan reconocer elementos y conexiones que cumplan con la definición de un grafo, permitiendo así la aplicación de la Teoría de Grafos en dichos contextos.
 Mientras que las aristas son los segmentos que conectan los vértices (también llamados nodos) en la representación gráfica de una estructura. Las aristas son las relaciones o conexiones entre los elementos del grafo y representan cómo los vértices están vinculados entre sí. En un grafo, las aristas pueden tener diferentes propiedades, como ser dirigidas o dirigidas.  
 
+
+- Clase nodo en nuestro código:
+<p align="center">
+  <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/clase-nodo.png" alt="nodos-cod">
+</p>
+
 Por ello hemos concluido que la mejor estructura de datos para este problema son los grafos. De esta manera, enlazaremos todas las cuadras de la ciudad elegida (New York) mediante el uso de sus coordenadas como nodos y las calles como aristas dirigdas. 
+
+
 
 <p align="center">
   <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/image.png" alt="New-York">
@@ -122,7 +135,7 @@ Por ello hemos concluido que la mejor estructura de datos para este problema son
 
 <div style="text-align: justify;">
 
-Al proponer una estructura de datos tipo grafos, nuestra dataset es explícita. Por ello hemos recopilado más de 1000 coordenadas en las calles de Ney York:  
+Al proponer una estructura de datos tipo grafos, nuestra dataset es explícita. Por ello hemos recopilado más de 1000 coordenadas (latitud y longitud ) en las calles de Ney York:  
 
 <p align="center";>
   <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/dataset.png" alt="Dataset">
