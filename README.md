@@ -98,12 +98,18 @@ En el ámbito de las matemáticas y la informática, se investiga la teoría de 
   - Clase grafo en nuestro código:
 <p align="center">
   <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/clase-grafo.png" alt="grafos-cod">
-  (claseGrafo.py)
+</p>
+<p align="center">
+ (claseGrafo.py)
 </p>
 
 </div>
 
-</div>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ##### 1.2.1.1 Vértices y aristas 
 
@@ -116,6 +122,9 @@ Mientras que las aristas son los segmentos que conectan los vértices (también 
 - Clase nodo en nuestro código:
 <p align="center">
   <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/clase-nodo.png" alt="nodos-cod">
+</p>
+
+<p align="center">
   (claseNodo.py)
 </p>
 
@@ -129,9 +138,11 @@ Por ello hemos concluido que la mejor estructura de datos para este problema son
 
 </div>
 
-</div>
-
-
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## 2. Descripción y visualización del conjunto de datos
 
