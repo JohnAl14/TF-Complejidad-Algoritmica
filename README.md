@@ -57,7 +57,7 @@ El problema al que nos enfrentamos en este proyecto fue la optimización de ruta
 El objetivo principal de un proyecto de optimización de rutas con un modelo basado en  TSP es encontrar la ruta más corta y eficiente para que un agente de viajes visite un conjunto de ciudades o puntos de interés.  TSP es un problema clásico de optimización combinatoria que se ha  estudiado desde los inicios de la inteligencia artificial, y su aplicación puede ser en cualquier campo de investigación que tenga problemas de reflexión situacional que incluyan muchos destinos diferentes  con costos asociados a cada viaje.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sebaditas/TF-ComplejidadAlgoritmica/main/informe-tp/Imagen2.png" alt="backtracking">
+  <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/tsp-problema-del-agente-viajero.jpeg" alt="agente-viajero">
 </p>
 
 </div>
@@ -88,6 +88,9 @@ Este problema es relevante para diversas aplicaciones prácticas, tales como:
 
 <div style="text-align: justify;">
 
+<p align="center">
+  <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/400px-Connexe_et_pas_connexe.svg.png" alt="grafos-ejepmplo">
+</p>
 
 </div>
 
