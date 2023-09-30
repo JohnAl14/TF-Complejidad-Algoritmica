@@ -98,6 +98,7 @@ En el ámbito de las matemáticas y la informática, se investiga la teoría de 
   - Clase grafo en nuestro código:
 <p align="center">
   <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/clase-grafo.png" alt="grafos-cod">
+  (claseGrafo.py)
 </p>
 
 </div>
@@ -115,6 +116,7 @@ Mientras que las aristas son los segmentos que conectan los vértices (también 
 - Clase nodo en nuestro código:
 <p align="center">
   <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/clase-nodo.png" alt="nodos-cod">
+  (claseNodo.py)
 </p>
 
 Por ello hemos concluido que la mejor estructura de datos para este problema son los grafos. De esta manera, enlazaremos todas las cuadras de la ciudad elegida (New York) mediante el uso de sus coordenadas como nodos y las calles como aristas dirigdas. 
