@@ -81,7 +81,21 @@ Este problema es relevante para diversas aplicaciones prácticas, tales como:
 
 ## 2. Descripción y visualización del conjunto de datos
 
-?????
+
+
+
+
+<p align="center";>
+  <img src="" alt="Dataset">
+</p>
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
 
 ## 3. Propuesta
 
