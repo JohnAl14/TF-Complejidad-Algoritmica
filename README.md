@@ -36,7 +36,7 @@
 
 <br>
 
-<p align="center"><strong>Salomon Frisancho, Sebastian Mathias – U202224392</strong></p>
+<p align="center"><strong> Frisancho Levano Sebastian, Mathias Salomon – U202224392</strong></p>
 
 <br>
 <br>
