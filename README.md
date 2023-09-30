@@ -3,7 +3,7 @@
 <br>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sebaditas/TF-ComplejidadAlgoritmica/main/informe-tp/upc.png" alt="UPC">
+  <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/upc.png" alt="UPC">
 </p>
 
 <br>
