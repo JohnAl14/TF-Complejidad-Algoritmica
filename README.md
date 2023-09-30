@@ -128,7 +128,7 @@ Mientras que las aristas son los segmentos que conectan los vértices (también 
   (claseNodo.py)
 </p>
 
-Por ello hemos concluido que la mejor estructura de datos para este problema son los grafos. De esta manera, enlazaremos todas las cuadras de la ciudad elegida (New York) mediante el uso de sus coordenadas como nodos y las calles como aristas dirigdas. 
+Por ello hemos concluido que la mejor estructura de datos para este problema son los grafos. De esta manera, enlazaremos todas las cuadras de la ciudad elegida (New York) mediante el uso de sus coordenadas como nodos y las calles como aristas dirigidas. 
 
 
 
@@ -148,12 +148,14 @@ Por ello hemos concluido que la mejor estructura de datos para este problema son
 
 <div style="text-align: justify;">
 
-Al proponer una estructura de datos tipo grafos, nuestra dataset es explícita. Por ello hemos recopilado más de 1000 coordenadas (latitud y longitud ) en las calles de Ney York:  
+Al proponer una estructura de datos tipo grafos, nuestra dataset es explícita. Por ello hemos recopilado más de 1000 coordenadas (latitud y longitud ) en las calles de New York:  
 
 <p align="center";>
   <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/dataset.png" alt="Dataset">
   (archivo_coordenadas.csv)
 </p>
+
+Por otro lado agregaremos un dataset de las calles representadas como aristas. 
 
 </div>
 
@@ -169,6 +171,8 @@ Al proponer una estructura de datos tipo grafos, nuestra dataset es explícita. 
 
 - Proponemos un algoritmo sistemático que genere una estructura detallada de las calles de New York  a partir de la teoría de grafos dirigidos con el objetivo de solventar el problema planteado en la       
   descripción.
+- Para la representación gráfica usaremos una api a la web de OpenStreetMap con el uso de la biblioteca Folium.
+- Para mejorar su eficiencia probaremos diferentes métodos de búsqueda de grafos y actualizaremos las calles conforme avance el proyecto. 
 - Como metodología nos reunimos cada fin de semana para investigar y programar al menos 6 horas entre el Sábado y Domingo. 
 
 <br>
