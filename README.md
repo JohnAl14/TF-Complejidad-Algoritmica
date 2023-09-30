@@ -181,6 +181,12 @@ Por otro lado agregaremos un dataset de las calles representadas como aristas.
 <br>
 <br>
 
+## 4. Conclusiones 
+
+- **Importancia de la Optimización de Rutas**: El proyecto aborda un problema crítico en la gestión del transporte y la logística: la optimización de rutas. Esta optimización tiene aplicaciones en una      variedad    de campos, desde la entrega de paquetes hasta la planificación de itinerarios turísticos y la distribución de recursos.
+- **Amplio Espectro de Aplicaciones**: El problema de optimización de rutas es versátil y aplicable en una variedad de contextos, desde la logística hasta los servicios y la planificación de viajes. Esto demuestra la utilidad y la relevancia de abordar este tipo de desafíos.
+- **Relevancia de la Teoría de Grafos**: La utilización de la teoría de grafos como marco conceptual es fundamental para modelar y abordar el problema del Viajante de Comercio (TSP). Esta teoría ofrece herramientas poderosas para representar relaciones y conexiones entre nodos, lo que resulta esencial en la optimización de rutas.
+
 ## 5. Bibliografía
 
 <div style="text-align: justify;">
