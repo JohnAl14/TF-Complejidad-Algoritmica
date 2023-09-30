@@ -141,7 +141,9 @@ Al proponer una estructura de datos tipo grafos, nuestra dataset es explícita. 
 
 <div style="text-align: justify;">
 
-?????????
+- Proponemos un algoritmo sistemático que genere una estructura detallada de las calles de New York  a partir de la teoría de grafos dirigidos con el objetivo de solventar el problema planteado en la       
+  descripción.
+- Como metodología nos reunimos cada fin de semana para investigar y programar al menos 6 horas entre el Sábado y Domingo. 
 
 <br>
 <br>
