@@ -108,6 +108,10 @@ Mientras que las aristas son los segmentos que conectan los vértices (también 
 
 Por ello hemos concluido que la mejor estructura de datos para este problema son los grafos. De esta manera, enlazaremos todas las cuadras de la ciudad elegida (New York) mediante el uso de sus coordenadas como nodos y las calles como aristas dirigdas. 
 
+<p align="center">
+  <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/image.png" alt="New-York">
+</p>
+
 </div>
 
 </div>
@@ -121,7 +125,7 @@ Por ello hemos concluido que la mejor estructura de datos para este problema son
 Al proponer una estructura de datos tipo grafos, nuestra dataset es explícita. Por ello hemos recopilado más de 1000 coordenadas en las calles de Ney York:  
 
 <p align="center";>
-  <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/image.png" alt="Dataset">
+  <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/dataset.png" alt="Dataset">
   (archivo_coordenadas.csv)
 </p>
 
