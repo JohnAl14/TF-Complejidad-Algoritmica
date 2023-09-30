@@ -155,7 +155,7 @@ Al proponer una estructura de datos tipo grafos, nuestra dataset es explícita. 
   (archivo_coordenadas.csv)
 </p>
 
-Para la impresion del mapa de New york usamos las librearias folium  y Webbrowser en la clase Mapprinter. En esta clase, definimos dos tipos de lineas para conectar los nodos: verdes y rojas. Las primeras lineas representan las calles libres y las rojas donde hay interferencias.
+Para la impresión del mapa de New york usamos las librerías folium  y Webbrowser en la clase Mapprinter. En esta clase, definimos dos tipos de líneas para conectar los nodos: verdes y rojas. Las primeras líneas representan las calles libres y las rojas donde hay interferencias.
 
 <p align="center";>
   <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/algorito-impresion-mapa.png" alt="mapPrinter">
@@ -181,7 +181,7 @@ Para la impresion del mapa de New york usamos las librearias folium  y Webbrowse
 
 - Proponemos un algoritmo sistemático que genere una estructura detallada de las calles de New York  a partir de la teoría de grafos dirigidos con el objetivo de solventar el problema planteado en la       
   descripción.
-- Para la representación gráfica del mapa usaremos una api a la web de OpenStreetMap con el uso de la libreria Folium.
+- Para la representación gráfica del mapa usaremos una api a la web de OpenStreetMap con el uso de la librería Folium.
 - Para mejorar su eficiencia probaremos diferentes métodos de búsqueda de grafos y actualizaremos las calles conforme avance el proyecto. 
 - Como metodología nos reunimos cada fin de semana para investigar y programar al menos 6 horas entre el Sábado y Domingo. 
 
