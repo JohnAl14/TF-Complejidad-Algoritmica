@@ -83,6 +83,7 @@ Este problema es relevante para diversas aplicaciones prácticas, tales como:
   - **Distribución de recursos**:
     En aplicaciones de distribución de recursos, como la recolección de residuos, la recolección de donaciones o la distribución de suministros, es importante optimizar las rutas para minimizar los recursos      utilizados.
 
+</div>
 
 #### 1.2.1. Teoría de grafos 
 
@@ -184,6 +185,7 @@ Para la impresión del mapa de New york usamos las librerías folium  y Webbrows
 - Para la representación gráfica del mapa usaremos una api a la web de OpenStreetMap con el uso de la librería Folium.
 - Para mejorar su eficiencia probaremos diferentes métodos de búsqueda de grafos y actualizaremos las calles conforme avance el proyecto. 
 - Como metodología nos reunimos cada fin de semana para investigar y programar al menos 6 horas entre el Sábado y Domingo. 
+</div>
 
 <br>
 <br>
@@ -191,13 +193,35 @@ Para la impresión del mapa de New york usamos las librerías folium  y Webbrows
 <br>
 <br>
 
-## 4. Conclusiones 
+## 4. Diseño de aplicación 
+
+<div style="text-align: justify;">
+La aplicacion esta dividida en 6 archivos principales ".py" conformados por:
+
+- **claseGrafo.py**
+- **astra.py**
+- **claseNodo**
+- **directorios.py**
+- **imprimirMapa.py**
+- **main.py**
+
+En el archivo main cada una de estas clases se unen para crear el grafo, sus respectivos nodos, su mejor ruta y la impresión del mapa de New York desde un webbrowser. Además, el sistema esta respaldado por un GUI sencillo creado desde la biblioteca Tkinter.
+
+
+
+
+
+</div>
+
+
+
+## 5. Conclusiones 
 
 - **Importancia de la Optimización de Rutas**: El proyecto aborda un problema crítico en la gestión del transporte y la logística: la optimización de rutas. Esta optimización tiene aplicaciones en una      variedad    de campos, desde la entrega de paquetes hasta la planificación de itinerarios turísticos y la distribución de recursos.
 - **Amplio Espectro de Aplicaciones**: El problema de optimización de rutas es versátil y aplicable en una variedad de contextos, desde la logística hasta los servicios y la planificación de viajes. Esto demuestra la utilidad y la relevancia de abordar este tipo de desafíos.
 - **Relevancia de la Teoría de Grafos**: La utilización de la teoría de grafos como marco conceptual es fundamental para modelar y abordar el problema del Viajante de Comercio (TSP). Esta teoría ofrece herramientas poderosas para representar relaciones y conexiones entre nodos, lo que resulta esencial en la optimización de rutas.
 
-## 5. Bibliografía
+## 6. Bibliografía
 
 <div style="text-align: justify;">
 
@@ -212,7 +236,7 @@ Universidad Autónoma del Estado de Hidalgo. (s/f). Problema del agente viajero.
 
 </div>
 
-</div>
+
 
 <br>
 <br>
