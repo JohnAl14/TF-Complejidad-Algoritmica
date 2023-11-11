@@ -12,7 +12,7 @@
 
 <br>
 
-<p align="center"><strong>TRABAJO PARCIAL</strong></p>
+<p align="center"><strong>TRABAJO FINAL </strong></p>
 
 <br>
 
