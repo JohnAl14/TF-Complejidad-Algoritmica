@@ -196,8 +196,8 @@ Para la impresión del mapa de New york usamos las librerías folium  y Webbrows
 ## 4. Diseño de aplicación 
 
 <div style="text-align: justify;">
-La aplicacion esta dividida en 6 archivos principales ".py" conformados por:
-
+La aplicación está dividida en 6 archivos principales ".py" conformados por:
+  
 - **claseGrafo.py**
 - **astra.py**
 - **claseNodo**
@@ -205,11 +205,35 @@ La aplicacion esta dividida en 6 archivos principales ".py" conformados por:
 - **imprimirMapa.py**
 - **main.py**
 
-En el archivo main cada una de estas clases se unen para crear el grafo, sus respectivos nodos, su mejor ruta y la impresión del mapa de New York desde un webbrowser. Además, el sistema esta respaldado por un GUI sencillo creado desde la biblioteca Tkinter.
+En el archivo main cada una de estas clases se unen para crear el grafo, sus respectivos nodos, su mejor ruta y la impresión del mapa de New York desde un webbrowser. Además, el sistema está respaldado por un GUI sencillo creado desde la biblioteca Tkinter.
 
+- Implementación de la librería Tkinter:
+<p align="center";>
+  <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/tkinter.png" alt="ejemploTkinter">
+  (main.py)
+</p>
 
+Una vez ingresado al GUI visualizaremos 2 opciones "Cargar coordenadas" y "Ejecutar ruta".
 
+- Ejemplo del GUI:
+<p align="center";>
+  <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/gui.png" alt="ejemploGUI"> 
+</p>
 
+En la primera opción buscaremos en nuestra máquina local el archivo ".csv" con todas las coordenadas de la ciudad y elegiremos los nodos para formar una ruta.
+
+ - Ejemplo de Cargar coordenadas:
+<p align="center";>
+  <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/Cargar_Coordenadas.png"alt="ejemploCoordenadas"> 
+</p>
+
+Por último, tenemos la opción Ejecutar ruta en la cual visualizaremos la ruta que elegimos previamente en un mapa de Google maps.
+
+- Ejemplo de ejecución de la ruta optima:
+  
+<p align="center";>
+  <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/Ejemplo.png" alt="ejemploRuta"> 
+</p>
 
 </div>
 
