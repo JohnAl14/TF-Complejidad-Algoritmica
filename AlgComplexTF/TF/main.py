@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import filedialog
+
 import csv
 import folium
 import random
@@ -9,7 +9,6 @@ from imprimirMapa import MapPrinter
 from claseNodo import nodo
 from claseGrafo import Graph
 
-from directorios import ruta_completa, ruta_completa1
 
 
 class MyApp:
