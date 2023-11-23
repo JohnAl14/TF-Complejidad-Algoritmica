@@ -129,12 +129,20 @@ Mientras que las aristas son los segmentos que conectan los vértices (también 
   (claseNodo.py)
 </p>
 
-Por ello hemos concluido que la mejor estructura de datos para este problema son los grafos. De esta manera, enlazaremos todas las cuadras de la ciudad elegida (New York) mediante el uso de sus coordenadas como nodos y las calles como aristas dirigidas. 
+Por ello hemos concluido que la mejor estructura de datos para este problema son los grafos. De esta manera, enlazaremos todas las cuadras de la ciudad elegida (New York) mediante el uso de sus coordenadas como nodos y las calles como aristas dirigidas.
 
 
 
 <p align="center">
   <img src="https://github.com/JohnAl14/TP-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/image.png" alt="New-York">
+</p>
+
+
+
+Por último, para el espacio de búsqueda usamos un algoritmo Dijskstra dentro de la clase grafo.
+
+<p align="center">
+  <img src="https://github.com/JohnAl14/TF-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/dijkstra.png" alt="Dijsktra">
 </p>
 
 </div>
@@ -199,7 +207,6 @@ Para la impresión del mapa de New york usamos las librerías folium  y Webbrows
 La aplicación está dividida en 6 archivos principales ".py" conformados por:
   
 - **claseGrafo.py**
-- **astra.py**
 - **claseNodo**
 - **directorios.py**
 - **imprimirMapa.py**
@@ -278,7 +285,7 @@ En el cuadro de dialogo el usuario podrá ingresar el nodo desde donde quiere pa
 - **Importancia de la Optimización de Rutas**: El proyecto aborda un problema crítico en la gestión del transporte y la logística: la optimización de rutas. Esta optimización tiene aplicaciones en una      variedad    de campos, desde la entrega de paquetes hasta la planificación de itinerarios turísticos y la distribución de recursos.
 - **Amplio Espectro de Aplicaciones**: El problema de optimización de rutas es versátil y aplicable en una variedad de contextos, desde la logística hasta los servicios y la planificación de viajes. Esto demuestra la utilidad y la relevancia de abordar este tipo de desafíos.
 - **Relevancia de la Teoría de Grafos**: La utilización de la teoría de grafos como marco conceptual es fundamental para modelar y abordar el problema del Viajante de Comercio (TSP). Esta teoría ofrece herramientas poderosas para representar relaciones y conexiones entre nodos, lo que resulta esencial en la optimización de rutas.
-- **Importancia de los algoritmos de busqueda**: En este caso empezamos con un algoritmo de fuerza bruta sin embargo por la extensión del data set concluimos que un algoritmo dijskstra es mucho más eficiente en especial cuando se tratan de problemas de búsqueda de rutas. 
+- **Importancia de los algoritmos de busqueda**: En este caso empezamos con un algoritmo de fuerza bruta sin embargo por la extensión del data set concluimos que un algoritmo Dijskstra es mucho más eficiente en especial cuando se tratan de problemas de búsqueda de rutas. 
 
 ## 6. Bibliografía
 
