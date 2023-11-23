@@ -237,13 +237,48 @@ Por último, tenemos la opción Ejecutar ruta en la cual visualizaremos la ruta 
 
 </div>
 
+## 5. Validación de resultados y pruebas
+<div style="text-align: justify;">
+- Ejemplo de imput de GUI completa:
+  
+Primero tenemos el Gui completado donde veremos 3 botones, el primero para cargar el data base, el segundo para observar los nodos a de interés y el ultimo para ejecutar la mejor ruta desde los nodos que deseamos dirigir.
+
+<p align="center";>
+  <img src="https://github.com/JohnAl14/TF-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/newini.png"alt="NewGui"> 
+</p>
+
+- Ejemplo de output de mapa:
+  
+Aquí el usuario observará todos los puntos en los que podrá realizar una búsqueda de la ruta más corta en Central Park.
+  
+<p align="center";>
+  <img src="https://github.com/JohnAl14/TF-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/mapa%20con%20coordenadas.png"alt="MapaCompletado"> 
+</p>
+
+- Ejemplo de imput de nodos y output de ruta:
+
+En el cuadro de dialogo el usuario podrá ingresar el nodo desde donde quiere partir y el nodo destino al que quiere llegar. Finalmente, recibirá un output de la ruta más optima graficada en el mapa en líneas rojas.
+  
+<p align="center";>
+  <img src="https://github.com/JohnAl14/TF-Complejidad-Algoritmica/blob/main/AlgComplexTF/archivos/prueba1.png"alt="EjemploOutput"> 
+</p>
 
 
-## 5. Conclusiones 
+
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+## 6. Conclusiones 
 
 - **Importancia de la Optimización de Rutas**: El proyecto aborda un problema crítico en la gestión del transporte y la logística: la optimización de rutas. Esta optimización tiene aplicaciones en una      variedad    de campos, desde la entrega de paquetes hasta la planificación de itinerarios turísticos y la distribución de recursos.
 - **Amplio Espectro de Aplicaciones**: El problema de optimización de rutas es versátil y aplicable en una variedad de contextos, desde la logística hasta los servicios y la planificación de viajes. Esto demuestra la utilidad y la relevancia de abordar este tipo de desafíos.
 - **Relevancia de la Teoría de Grafos**: La utilización de la teoría de grafos como marco conceptual es fundamental para modelar y abordar el problema del Viajante de Comercio (TSP). Esta teoría ofrece herramientas poderosas para representar relaciones y conexiones entre nodos, lo que resulta esencial en la optimización de rutas.
+- **Importancia de los algoritmos de busqueda**: En este caso empezamos con un algoritmo de fuerza bruta sin embargo por la extensión del data set concluimos que un algoritmo dijskstra es mucho más eficiente en especial cuando se tratan de problemas de búsqueda de rutas. 
 
 ## 6. Bibliografía
 
@@ -259,7 +294,6 @@ Universidad Autónoma del Estado de Hidalgo. (s/f). Problema del agente viajero.
 
 
 </div>
-
 
 
 <br>
