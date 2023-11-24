@@ -10,7 +10,6 @@ from claseNodo import nodo
 from claseGrafo import Graph
 
 
-
 class MyApp:
 
     def __init__(self, root):
@@ -23,13 +22,16 @@ class MyApp:
         self.title_font = ('Helvetica', 24, 'bold')
         self.map_printer = MapPrinter()
         self.graph = Graph()
-
         self.create_widgets()
         self.map_printer.mapa= folium.Map(location=[40.77564193305398, -73.96262332073893], zoom_start=14)
+
+        self.result=[]
         
                                
     def create_widgets(self):
 
+        #En caso de un error con la imagen, verificar si la ruta es la correcta
+         
         background_image = Image.open("C:\\Users\\USER\\Pictures\\Saved Pictures\\nw.jpg")
         background_photo = ImageTk.PhotoImage(background_image)
         background_label = tk.Label(self.root, image=background_photo)
@@ -40,7 +42,7 @@ class MyApp:
         self.title_label.pack()
 
         load_button = tk.Button(self.root, text="Cargar Coordenadas", command=self.load_coordinates, bg='darkblue', fg='white', height=2, width=17)
-        self.run_button2 = tk.Button(self.root, text="Mostrar Mapa", command=self.prueba, bg='darkred', fg='white', height= 2, width=11)
+        self.run_button2 = tk.Button(self.root, text="Mostrar Mapa", command=self.Mostrar, bg='darkred', fg='white', height= 2, width=11)
         self.run_button = tk.Button(self.root, text="Ejecutar Ruta", command=self.run, bg='darkgreen', fg='white', height= 2, width=11)
 
 
@@ -65,7 +67,7 @@ class MyApp:
         self.result_label.pack(pady=10)
 
     def load_coordinates(self):
-        file_path = 'archivos\\free.csv'
+        file_path = 'Dataset\\free.csv'
 
         if file_path:
             self.graph = Graph()
@@ -79,7 +81,7 @@ class MyApp:
                     self.graph.add_node(nodo_actual)
                     custom_icon = folium.Icon(color='blue')
                     folium.Marker(location=[nodo_actual.x, nodo_actual.y],popup=nodo_actual.idea,icon=custom_icon).add_to(self.map_printer.mapa)
-                    
+            self.graph.cargar_conecciones()            
             print("Coordenadas cargadas correctamente.")
 
 
@@ -88,13 +90,6 @@ class MyApp:
             print("Error: Cargar coordenadas antes de ejecutar Ruta.")        
             return
 
-        self.graph.cargar_conecciones(random.randint(1, 10))
-
-        result=[]
-
-
-
-       
         start_node = int(self.start_node_entry.get())
         end_node = int(self.end_node_entry.get())
 
@@ -102,37 +97,43 @@ class MyApp:
         nodo_inicio = self.graph.nodes[start_node-1]
         nodo_fin = self.graph.nodes[end_node-1]
      
-        result = self.graph.dijkstra( nodo_inicio, nodo_fin)
+        self.result = self.graph.dijkstra( nodo_inicio, nodo_fin)
+        #self.result = self.graph.RandDijkstra( nodo_inicio, nodo_fin)
 
         line = ""
-        for node in self.graph.nodes:
-            print(f"Node {node.idea} Connections:", [neighbor.idea for neighbor in node.salientes])
 
-        print(result)
+        for node in self.graph.nodes:
+            print(f"Nodo {node.idea} Conexiones:", [neighbor.idea for neighbor in node.salientes])
+            print(f"Nodo {node.idea} Pesos:", node.pesos)
+
+        print(self.result)
 
         self.result_label.config(text=line)
 
-        self.map_printer.print_map(self.graph, result)
+        self.map_printer.print_map(self.graph, self.result)
 
-    def prueba(self):
+        for i in range(1014):
+            self.graph.nodes[i].reset()
+
+        
+
+    def Mostrar(self):
 
         if not self.graph.nodes:
             print("Error: Cargar coordenadas antes de ejecutar Ruta.")        
             return
 
-        self.graph.cargar_conecciones(random.randint(1, 10))
-
-        result=[]
-
+        
         line = ""
         for node in self.graph.nodes:
-            print(f"Node {node.idea} Connections:", [neighbor.idea for neighbor in node.salientes])
+            print(f"Nodo {node.idea} Conexiones:", [neighbor.idea for neighbor in node.salientes])
+            print(f"Nodo {node.idea} Pesos:", node.pesos)
 
-        print(result)
+        print(self.result)
 
         self.result_label.config(text=line)
 
-        self.map_printer.print_map(self.graph, result)
+        self.map_printer.print_map(self.graph, self.result)
 
     
         
